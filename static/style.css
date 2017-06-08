@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+body {
+    height: 100%;
+    width: 100%;
+    /*background-color: #5192b2;*/
+}
+#map {
+    height: 100%;
+    width: 100%;
+}
+body>nav {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+* {
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+}
+.jumbotron footer p {
+    font-size: 14px;
+    color: #777;
+}
+.jumbotron {
+    margin-top: 100px;
+}
+.leaflet-popup-content .custom-title {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #777;
+    font-weight: 400;
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+}
