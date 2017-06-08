@@ -15,7 +15,7 @@ var baselayers = {
 };
 map.addLayer(topoLayer)
 
-var rootURL = 'http://localhost:8080/';
+var rootURL = 'http://192.168.1.10:8080/';
 
 var overlays = {
     "Apex": 'database:apex_pts',
