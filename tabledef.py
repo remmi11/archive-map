@@ -10,7 +10,12 @@ from sqlalchemy import Column, Date, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship, backref
 
-connString = 'postgresql://postgres:pass@192.168.1.10:5432/postgres'
+# define('DB_SERVER', 'nutty-blueberry.db.elephantsql.com');
+# define('DB_USERNAME', 'jcfcqrso');
+# define('DB_PASSWORD', 'ExNoFtbZT7_BNnmb5XFIwDIDwJHOVDK0');
+# define('DB_DATABASE', 'jcfcqrso');
+
+connString = 'postgresql://jcfcqrso:ExNoFtbZT7_BNnmb5XFIwDIDwJHOVDK0@nutty-blueberry.db.elephantsql.com:5432/jcfcqrso'
 engine = create_engine(connString, echo=True)
 Base = declarative_base()
 
