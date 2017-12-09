@@ -74,4 +74,4 @@ def logout():
 
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)
-    app.run(debug=False, host='0.0.0.0', port=4000)
+    app.run()
